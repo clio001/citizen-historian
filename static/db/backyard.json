@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "title": "Episode 1: Introduction",
+    "author": "David Brandon Dennis",
+    "year": 2021,
+    "season": "Season 1",
+    "blogUrl": "https://www.nejh.org/history-in-your-backyard?wix-vod-video-id=5a95ced9c32140cb9e53a8529797974a&wix-vod-comp-id=comp-khqqt36k",
+    "imageUrl": "https://images-vod.wixmp.com/725a0356-91b6-40bd-8525-6aa155dc6525/images/9748933a78f240e19aef5732abdc490cf000/v1/fill/w_211,h_118,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp"
+  },
+  {
+    "id": 1,
+    "title": "Episode 2: Dean History",
+    "author": "R.A. Lawson",
+    "year": 2021,
+    "season": "Season 1",
+    "blogUrl": "https://www.nejh.org/history-in-your-backyard?wix-vod-video-id=bd76a6991ef940f8969161c7a5a3b16b&wix-vod-comp-id=comp-khqqt36k",
+    "imageUrl": "https://images-vod.wixmp.com/725a0356-91b6-40bd-8525-6aa155dc6525/images/bb6526e672ea411289285b6fe628e3b7f002/v1/fill/w_211,h_118,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp"
+  },
+  {
+    "id": 2,
+    "title": "Episode 3: Dean College War Memorial'",
+    "author": "David Brandon Dennis",
+    "year": 2021,
+    "season": "Season 1",
+    "blogUrl": "https://www.nejh.org/history-in-your-backyard?wix-vod-video-id=5fa5ff3d98554b229615ed0ea15a19eb&wix-vod-comp-id=comp-khqqt36k",
+    "imageUrl": "https://images-vod.wixmp.com/725a0356-91b6-40bd-8525-6aa155dc6525/images/ce2139057a99433291aca02ca970ea67f002/v1/fill/w_211,h_118,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp"
+  },
+  {
+    "id": 3,
+    "title": "Episode 4: 1934 Needham Trust Co. Bank Robbery",
+    "author": "Avellaka Arviso, Mark Bassler and Scott Kirshy",
+    "year": 2021,
+    "season": "Season 1",
+    "blogUrl": "https://www.nejh.org/history-in-your-backyard?wix-vod-video-id=88ee6d8386c54d1c8fd9687216f0ee17&wix-vod-comp-id=comp-khqqt36k",
+    "imageUrl": "https://images-vod.wixmp.com/725a0356-91b6-40bd-8525-6aa155dc6525/images/0cbf7ac15a7a47afadcc5b8a018d078af002/v1/fill/w_211,h_118,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp"
+  },
+  {
+    "id": 4,
+    "title": "Episode 5: Franklin Massachusetts War Memorials",
+    "author": "Elena Mejorado, Camryn Michaud and Ryan Gavel",
+    "year": 2021,
+    "season": "Season 1",
+    "blogUrl": "https://www.nejh.org/history-in-your-backyard?wix-vod-video-id=88df83b78b0743539e70c863ba69db88&wix-vod-comp-id=comp-khqqt36k",
+    "imageUrl": "https://images-vod.wixmp.com/725a0356-91b6-40bd-8525-6aa155dc6525/images/f20efb6afa334864919ec41a6b2f8637~mv2/v1/fill/w_211,h_118/file.png"
+  },
+  {
+    "id": 5,
+    "title": "Episode 6: From Old Town Hall to Franklin Historical Museum",
+    "author": "Shannon Downing, Maxwell, MacPhail, Jesse Rodriguez, Taylor Tremblay and Mikayla Krupski",
+    "year": 2021,
+    "season": "Season 1",
+    "blogUrl": "https://www.nejh.org/history-in-your-backyard?wix-vod-video-id=6ba1028a0441454db2d123338f989cba&wix-vod-comp-id=comp-khqqt36k",
+    "imageUrl": "https://images-vod.wixmp.com/725a0356-91b6-40bd-8525-6aa155dc6525/images/c7fae08d748f4dd5a3fc09d26ff653ac~mv2/v1/fill/w_211,h_118/file.png"
+  },
+  {
+    "id": 6,
+    "title": "Episode 7: Horace Mann - A Political Career",
+    "author": "Will Dorsey, Ava Perry, Scott Kirshy and Mikayla Krupski",
+    "year": 2021,
+    "season": "Season 1",
+    "blogUrl": "https://www.nejh.org/history-in-your-backyard?wix-vod-video-id=5e76f452088941a69b700d4bc6c6ca97&wix-vod-comp-id=comp-khqqt36k",
+    "imageUrl": "https://images-vod.wixmp.com/725a0356-91b6-40bd-8525-6aa155dc6525/images/69f1ca7d809a42a08510862c1dc6506af002/v1/fill/w_211,h_118,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp"
+  },
+  {
+    "id": 7,
+    "title": "Episode 8: Horace Mann - A Pioneer of Universal Education",
+    "author": "Elena Mejorado, Ian Boudreau, Michaela Robertson, Jordan Stroud and Mikayla Krupski",
+    "year": 2021,
+    "season": "Season 1",
+    "blogUrl": "https://www.nejh.org/history-in-your-backyard?wix-vod-video-id=b208edfc408b490ca5209d8ad7348333&wix-vod-comp-id=comp-khqqt36k",
+    "imageUrl": "https://images-vod.wixmp.com/725a0356-91b6-40bd-8525-6aa155dc6525/images/1ef6a6a01b854a74867f907d32dd00c3~mv2/v1/fill/w_211,h_118/file.png"
+  }
+]
