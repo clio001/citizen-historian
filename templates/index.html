@@ -33,7 +33,7 @@
             <h2>Primary Source Documents</h2>
             <div class="container item-list">
                 {% for doc in docs %}
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;" onclick="window.location.href='/item'">
                     <div style="height: 200px; background-image: url('{{doc.imageUrl}}'); background-size: cover;">
                     </div>
                     <div class="card-body">

@@ -27,4 +27,7 @@ def index():
 
 @app.route('/item')
 def item():
-    return render_template('item.html')
+    with open('static/db/docs.json', 'r', encoding='utf-8') as f:
+        docs = json.load(f)
+        f.close()
+    return render_template('item.html', docs=docs)
