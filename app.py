@@ -6,5 +6,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    with open('static/db/docs.json', 'r', encoding='utf-8') as f:
+        docs = json.load(f)
+        f.close()
+    return render_template('index.html', docs=docs)
 

@@ -12,11 +12,25 @@
     <div class="row box">
         <div class="col-12 text-center">
             <h2>Primary Source Documents</h2>
-            <ul class="list-unstyled">
-                <li><a href="#">Source 1</a></li>
-                <li><a href="#">Source 2</a></li>
-                <li><a href="#">Source 3</a></li>
-            </ul>
+            <div class="container item-list">
+                {% for doc in docs %}
+                <div class="card" style="width: 18rem;">
+                    <div
+                        style="width: 18rem; height: 200px; background-image: url('{{doc.imageUrl}}'); background-size: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-start fw-bold">{{doc.title}}</h5>
+                        <p class="card-text text-start text-uppercase text-secondary"><small>{{doc.theme[0]}}</small>
+                        </p>
+                        <p class="card-text text-start">{{doc.creator}}, {{doc.place[0]}} ({{doc.year}}) </p>
+                    </div>
+
+
+                </div>
+
+                {%endfor%}
+            </div>
+
         </div>
     </div>
 
