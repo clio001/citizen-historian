@@ -10,7 +10,6 @@ h2 {
 .footer {
     background-color: #eee;
     padding: 20px;
-    border-radius: 12px 12px 0 0;
     padding-bottom: 5rem;
 
 }
@@ -41,7 +40,7 @@ a {
     transition: 0.3s;
 }
 
-.about {
+.text-67{
    
-    text-align: justify;
+    max-width: 67ch;
 }
