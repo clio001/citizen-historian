@@ -49,3 +49,9 @@ a {
     width:fit-content;
     opacity: 0.8;
 }
+
+body {
+    background-image: url('/static/img/wallpaper.webp');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
