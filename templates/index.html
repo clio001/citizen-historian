@@ -1,14 +1,31 @@
 {%extends "layout.html"%}
 {%block body%}
-
 <div class="container">
+    <div class="row box"
+        style="background-image: url('https://images.unsplash.com/photo-1576568699714-a3f4950805d5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; height: fit-content;">
+        <div class="col-lg-12"
+            style="position: relative; z-index: 10; color: white; display:block; align-content: center; ">
+            <div style="background-color: rgba(0, 0, 0, 0.3); width: fit-content; padding: 2rem;">
+                <h1 class="display-1 display-md-3">Citizen<br>Historian<br>Sourcebook</h1>
+                <p class="fs-5 text-67">The Citizen Historian Sourcebook is a platform for primary source
+                    documents and
+                    learning
+                    resources across a range of humanities fields and historical periods. The CHS enables researchers,
+                    teachers and students to deepen their understanding
+                    of
+                    historical topics.</p>
+                <div type="button" class="btn btn-secondary btn-lg mt-2" onclick="window.location.href='/item'">
+                    Learn
+                    more
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="row box">
-
         <div class="col-lg-6">
             <img src="static/img/mee_british empire_final.png" alt="NEJH Logo" class="img-fluid">
         </div>
         <div class="col-lg-6">
-
             <div class="text-67">
                 <h2>About</h2>
                 <p>
@@ -25,9 +42,7 @@
                 </p>
             </div>
         </div>
-
     </div>
-
     <div class="row box">
         <div class="col-12 text-center">
             <h2>Primary Source Documents</h2>
@@ -42,16 +57,11 @@
                         </p>
                         <p class="card-text text-start">{{doc.creator}}, {{doc.place[0]}} ({{doc.year}}) </p>
                     </div>
-
-
                 </div>
-
                 {%endfor%}
             </div>
-
         </div>
     </div>
-
     <div class="row box">
         <div class="col-12 text-center">
             <h2>History in your Backyard</h2>
@@ -62,7 +72,6 @@
             </ul>
         </div>
     </div>
-
     <div class="row box">
         <div class="col-12 text-center">
             <h2>NEJH Blog</h2>
@@ -73,7 +82,6 @@
             </ul>
         </div>
     </div>
-
     <div class="row box">
         <div class="col-12 text-center">
             <h2>The New England Journal of History</h2>

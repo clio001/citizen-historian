@@ -40,7 +40,12 @@ a {
     transition: 0.3s;
 }
 
-.text-67{
-   
+.text-67 {
     max-width: 67ch;
+}
+
+.bg-black {
+    background-color: black;
+    width:fit-content;
+    opacity: 0.8;
 }
