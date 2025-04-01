@@ -31,3 +31,16 @@ def item():
         docs = json.load(f)
         f.close()
     return render_template('item.html', doc=docs[6])
+
+@app.route('/item/<int:item_id>')
+def item_nr(item_id):
+    with open('static/db/docs.json', 'r', encoding="utf-8", errors="ignore") as f:
+        docs = json.load(f)
+    
+    for item in docs:
+        if item["id"] == item_id:
+            selectedItem = item
+    
+    return render_template("item.html", doc=selectedItem)
+    
+    
