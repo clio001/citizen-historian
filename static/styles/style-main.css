@@ -38,10 +38,15 @@ a {
 .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .text-67 {
     max-width: 67ch;
+}
+
+.bg-grey {
+    background-color: #eee;
 }
 
 .bg-black {

@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <div class="row box">
+    <div id="ps" class="row box">
         <div class="col-12 text-center">
             <h2>Primary Source Documents</h2>
             <div class="container item-list">
@@ -65,35 +65,61 @@
             </div>
         </div>
     </div>
-    <div class="row box">
+    <div id="hiyb" class="row box">
         <div class="col-12 text-center">
             <h2>History in your Backyard</h2>
-            <ul class="list-unstyled">
-                <li><a href="#">Contributor 1</a></li>
-                <li><a href="#">Contributor 2</a></li>
-                <li><a href="#">Contributor 3</a></li>
-            </ul>
+            <div class="container item-list">
+                {% for object in backyard %}
+                <div class="card" style="width: 18rem;" onclick="window.location.href='{{object.blogUrl}}'">
+                    <div style="height: 200px; background-image: url('{{object.imageUrl}}'); background-size: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-start fw-bold">{{object.title}}</h5>
+                    </div>
+                </div>
+                {%endfor%}
+            </div>
         </div>
     </div>
-    <div class="row box">
+    <div id="blog" class="row box">
         <div class="col-12 text-center">
             <h2>NEJH Blog</h2>
-            <ul class="list-unstyled">
-                <li><a href="#">Contributor 1</a></li>
-                <li><a href="#">Contributor 2</a></li>
-                <li><a href="#">Contributor 3</a></li>
-            </ul>
+            <div class="container item-list">
+                {% for blog in blogs %}
+                <div class="card" style="width: 18rem;" onclick="window.location.href='{{blog.blogUrl}}'">
+                    <div style="height: 200px; background-image: url('{{blog.imageUrl}}'); background-size: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-start fw-bold">{{blog.title}}</h5>
+                        <p class="card-text text-start  text-secondary">{{blog.author}}</p>
+                    </div>
+                </div>
+                {%endfor%}
+            </div>
         </div>
     </div>
-    <div class="row box">
-        <div class="col-12 text-center">
-            <h2>The New England Journal of History</h2>
-            <ul class="list-unstyled">
-                <li><a href="#">Contributor 1</a></li>
-                <li><a href="#">Contributor 2</a></li>
-                <li><a href="#">Contributor 3</a></li>
-            </ul>
-        </div>
-    </div>
+    <!--     <div class="row box">
+                <h2>The New England Journal of History</h2>
+                <div class="col-md-6 text-end">
+                    <img src="https://static.wixstatic.com/media/725a03_b2d3ee78b57c4aee8b2554b0bcceb317~mv2.png/v1/fill/w_415,h_537,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Vol%2076%2C%20No%202%2C%20SP2020.png"
+                        class="img-fluid" alt="NEJH Logo" style="height: 350px;">
+                </div>
+                <div class="col-md-6 text-start">
+        
+                    <div class="container ms-1.5">
+                        <div class="lead">Current Issue:</div>
+                        <p class="text-secondary">Volume 20, Number 1 (2023)</p>
+                        {% for article in articles %}
+                        <ul class="list-unstyled text-start">
+                            <li>
+                                <div class="fw-bold text-67">{{article.title}}</div>
+                                <div class="text-secondary">{{article.author}}, {{article.pages}}</div>
+                            </li>
+                        </ul>
+                        {%endfor%}
+                    </div>
+                </div>
+        
+            </div> -->
 </div>
 {%endblock%}

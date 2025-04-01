@@ -4,22 +4,55 @@
     <div class="row box">
         <div class="col-lg-2"></div>
         <div class="col-lg-8">
-            <img src="https://tile.loc.gov/storage-services/service/pnp/cph/3a50000/3a52000/3a52700/3a52783v.jpg"
-                alt="Document Image" class="img-fluid mb-5">
+            <img src="{{doc.imageUrl}}" alt="Document Image" class="img-fluid mb-5 rounded">
+            <br>
             <small class="text-uppercase text-secondary">Civil War</small>
-            <div class="fs-1">Federal Reserve</div>
-            <p class="mb-5">Creator, Place (Year)</p>
-            <div class="fs-4">Introduction</div>
-            <p>Edited by student (year)</p>
-            <p class="text-start text-67">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
+            <div class="h1">{{doc.title}}</div>
+            <p class="mb-5">{{doc.creator}}, {{doc.place[0]}} ({{doc.year}})</p>
+            <div class="h4" style="color: #91a68d;">Introduction</div>
+            <p>Edited by {{doc.editedBy}} ({{doc.editedAt}})</p>
+            {% for pg in doc.body.intro %}
+            <p class="text-start text-67">{{pg}}</p>
+            {%endfor%}
         </div>
         <div class="col-lg-2"></div>
+        <div class="row box">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 rounded"
+                style="max-width: 70ch; display: block; justify-content: center; background-color: #5869741a">
+                <div class="h4 text-center mt-3" style="color: #91a68d;">Primary Source</div>
+                <hr />
+                <div class="h5 text-center mb-4 mt-4">{{doc.creator}}, {{doc.title}}, {{doc.year}}</div>
+                {% if doc.body.poem %}
+                {% for pg in doc.body.poem %}<div class="text-start text-67 ps-2 mb-4">
+                    {% for line in pg.stanza %}
+                    {{line}}<br>
+                    {%endfor%}
+                </div>
+                {%endfor%}
+                {% else %}
+                {% for pg in doc.body.paragraphs %}
+                <p class="text-start text-67 ps-2">{{pg}}</p>
+                {%endfor%}
+                {% endif %}
+
+
+
+
+                <div class="h5 text-center mt-5 text-wrap" style="color: #91a68d;">How to cite</div>
+                <hr />
+                <p class="text-start text-67">{{doc.citation}}</p>
+
+                <div class="h5 text-center mt-5" style="color: #91a68d;">Further Reading</div>
+                <hr />
+                {% for pg in doc.readings %}
+                <p class="text-start text-67 ps-2">{{pg}}</p>
+                {%endfor%}
+
+
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
     </div>
 </div>
 

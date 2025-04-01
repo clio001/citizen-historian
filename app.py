@@ -30,4 +30,4 @@ def item():
     with open('static/db/docs.json', 'r', encoding='utf-8') as f:
         docs = json.load(f)
         f.close()
-    return render_template('item.html', docs=docs)
+    return render_template('item.html', doc=docs[6])
