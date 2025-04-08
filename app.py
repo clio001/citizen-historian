@@ -43,4 +43,22 @@ def item_nr(item_id):
     
     return render_template("item.html", doc=selectedItem)
     
+
+@app.route('/british-empire-for-children')
+def empire():
+    with open('static/db/exploring.json', 'r', encoding="utf-8", errors="ignore") as f:
+        docs = json.load(f)
     
+    return render_template("empire.html", docs=docs)
+
+@app.route('/british-empire-for-children/item/<int:item_id>')
+def empire_nr(item_id):
+    with open('static/db/exploring.json', 'r', encoding="utf-8") as f:
+        docs = json.load(f)
+    
+    for item in docs:
+        if item["id"] == item_id:
+            selectedItem = item
+            
+    
+    return render_template("empire_item.html", doc=selectedItem)
