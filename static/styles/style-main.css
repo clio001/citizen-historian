@@ -46,6 +46,13 @@ a {
     gap: 1;
 }
 
+.hanging-indent {
+    text-indent: -2em;
+    /* Pull first line to the left */
+    padding-left: 2em;
+    /* Push entire paragraph to the right */
+}
+
 .text-67 {
     max-width: 67ch;
 }
