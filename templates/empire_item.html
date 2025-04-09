@@ -3,7 +3,7 @@
 <div class="container">
 
     <div class="row box">
-        <div class="col-md-12">
+        <div class="col-md-12 mt-3 mb-3">
             <div type="button" class="btn btn-sm btn-outline-secondary mb-3"
                 onclick="window.location.href='/british-empire-for-children'">
                 Back </div>
@@ -11,8 +11,9 @@
         <div class="col-md-6">
 
             <iframe class="mb-sm-5"
-                src="https://mirador.staatsbibliothek-berlin.de/?manifest=https://content.staatsbibliothek-berlin.de/dc/647149141/manifest"
+                src="https://mirador.staatsbibliothek-berlin.de/?manifest=https://content.staatsbibliothek-berlin.de/dc/{{doc.teiHeader.publicationStmt.ppn}}/manifest"
                 style="width: 100%; height: 700px; margin-bottom: 3rem;"></iframe>
+
         </div>
         <div class="col-md-6 p-sm-5">
             <div class="display-6 mb-3">{{doc.teiHeader.fileDesc.titleStmt.title}}</div>
