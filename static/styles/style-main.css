@@ -41,6 +41,11 @@ a {
     cursor: pointer;
 }
 
+.dl {
+    background-color: lightgrey;
+    gap: 1;
+}
+
 .text-67 {
     max-width: 67ch;
 }
