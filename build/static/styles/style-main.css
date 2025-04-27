@@ -1,0 +1,74 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    padding: 3rem;
+    text-align: start;
+}
+
+.footer {
+    background-color: #eee;
+    padding: 20px;
+    padding-bottom: 5rem;
+
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.box {
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.dl {
+    background-color: lightgrey;
+    gap: 1;
+}
+
+.hanging-indent {
+    text-indent: -2em;
+    /* Pull first line to the left */
+    padding-left: 2em;
+    /* Push entire paragraph to the right */
+}
+
+.text-67 {
+    max-width: 67ch;
+}
+
+.bg-grey {
+    background-color: #eee;
+}
+
+.bg-black {
+    background-color: black;
+    width:fit-content;
+    opacity: 0.8;
+}
+
+body {
+    background-image: url('/static/img/wallpaper.webp');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
