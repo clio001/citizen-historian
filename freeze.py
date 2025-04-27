@@ -19,7 +19,7 @@ def item_nr():
 def empire_nr():
     with open('static/db/exploring.json', 'r', encoding="utf-8", errors="ignore") as f:
         docs = json.load(f)
-    
+        
     for item in docs:
         yield 'empire_nr', {'item_id': item["id"]}
 
