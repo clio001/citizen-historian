@@ -66,22 +66,7 @@
             </div>
         </div>
     </div>
-    <div id="hiyb" class="row box">
-        <div class="col-12 text-center">
-            <h2>History in your Backyard</h2>
-            <div class="container item-list">
-                {% for object in backyard %}
-                <div class="card" style="width: 18rem;" onclick="window.location.href='{{object.blogUrl}}'">
-                    <div style="height: 200px; background-image: url('{{object.imageUrl}}'); background-size: cover;">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-start fw-bold">{{object.title}}</h5>
-                    </div>
-                </div>
-                {%endfor%}
-            </div>
-        </div>
-    </div>
+
     <div id="blog" class="row box">
         <div class="col-12 text-center">
             <h2>NEJH Blog</h2>
