@@ -25,14 +25,14 @@ def index():
     return render_template('index.html', docs=docs, articles=articles, blogs=blogs, backyard=backyard)
 
 
-@app.route('/item/')
+@app.route('/item')
 def item():
     with open('static/db/docs.json', 'r', encoding='utf-8') as f:
         docs = json.load(f)
         f.close()
     return render_template('item.html', doc=docs[6])
 
-@app.route('/item/<int:item_id>/')
+@app.route('/item/<int:item_id>')
 def item_nr(item_id):
     with open('static/db/docs.json', 'r', encoding="utf-8", errors="ignore") as f:
         docs = json.load(f)
@@ -44,14 +44,14 @@ def item_nr(item_id):
     return render_template("item.html", doc=selectedItem)
     
 
-@app.route('/british-empire-for-children/')
+@app.route('/british-empire-for-children')
 def empire():
     with open('static/db/exploring.json', 'r', encoding="utf-8", errors="ignore") as f:
         docs = json.load(f)
     
     return render_template("empire.html", docs=docs)
 
-@app.route('/british-empire-for-children/item/<int:item_id>/')
+@app.route('/british-empire-for-children/item/<int:item_id>')
 def empire_nr(item_id):
     with open('static/db/exploring.json', 'r', encoding="utf-8") as f:
         docs = json.load(f)
