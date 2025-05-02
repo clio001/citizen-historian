@@ -204,7 +204,7 @@
     "citation": "Curie, Marie. “The Discovery of Radium ... Address by Madame M. Curie at Vassar College, May 14, 1921.” HathiTrust. Accessed September 29, 2021. https://babel.hathitrust.org/cgi/pt?id=uiug.30112002110515&view=1up&seq=12&skin=2021",
     "type": "Speech",
     "period": "Interwar Period",
-    "place": ["Vassar College"],
+    "place": ["Vassar College (Poughkeepsie, New York)"],
     "theme": ["History of Science", "World War I", "Women's History"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Portrait_of_Marie_Curie.jpg/775px-Portrait_of_Marie_Curie.jpg",
     "readings": [
@@ -231,7 +231,7 @@
   {
     "id": 4,
     "title": "Babe Ruth Transfer Agreement",
-    "creator": "",
+    "creator": "n.n.",
     "createdAt": "December 26, 1919",
     "year": "1919",
     "editedBy": "Kevin Mahoney",
@@ -239,7 +239,7 @@
     "citation": "Babe Ruth Transfer Agreement. National Baseball Hall of Fame Archives: Marshall Smelser Collection, December 26, 1919. Accessed September 19, 2021. https://collection.baseballhall.org/PASTIME/babe-ruth-transfer-agreement-1919-december-26",
     "type": "Agreement",
     "period": "20th Century",
-    "place": ["Vassar College"],
+    "place": ["Boston and New York"],
     "theme": ["Sports History"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Babe_Ruth_by_Bain%2C_1919.jpg/1024px-Babe_Ruth_by_Bain%2C_1919.jpg",
     "readings": [
@@ -277,7 +277,7 @@
     "citation": "Morgan, Thomas Hunt. Some Possible Bearings of Genetics on Pathology. Lancaster, Pa.: Press of the New Era Printing Company, 1922.",
     "type": "Book",
     "period": "20th Century",
-    "place": ["Ann Arbor", "University of Michigan"],
+    "place": ["Columbia University", "New York"],
     "theme": ["History of Science"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Criss-cross_inheritance.jpg/796px-Criss-cross_inheritance.jpg",
     "readings": [
@@ -290,7 +290,7 @@
     "body": {
       "intro": [
         "Thomas Hunt Morgan (1866, 1945) was an American scientist from Kentucky. Morgan made many contributions to the study and research of genetics.  While Gregor Mendel (1822, 1884) is often assumed to be the “father of genetics,” Morgan made equally important contributions to the field. Morgan, in particular, is known for his experiments involving fruit flies (drosophila). He was able to take genetics a step further, as no one had done before. Morgan's most important work occurred during the first few decades of the twentieth century. His main interest was understanding the mechanism for how traits were passed down from parents to offspring It is important to remember at this time, the precise operations of genetics were still poorly understood. Many scientists and non-scientists still assumed the Lamarckian view that people inherited certain characteristics based on the race, age, gender, religion, behavior, or culture of their parents.",
-        "In 1910, for first time Thomas Hunt Morgan realized the genetic origin of eye differences among the drosophilae. The flies normally had red eyes, but he noticed a few of the flies had white eyes. He asked how the traits were inherited in this way. Morgan and his students conducted experiments in his fly lab at Columbia University. Because of the drosophila's short reproductive cycle, they were able to breed numerous generations of the flies and observe their genetic outcomes. After doing an analysis of the flies, they were able to confirm what is known as chromosome theory. In short, the chromosome theory holds that genes are found in certain places on chromosomes, which are molecules that pass genetic information from parent to offspring. Below is the excerpt from Morgan's book Some Possible Bearings of Genetics on Pathology. Written in 1922 when Morgan was a professor of zoology at the University of Michigan, this book contains a synthesis of Morgan's most important conclusions about genetics from the research done in his lab during the preceding decades."
+        "In 1910, for first time Thomas Hunt Morgan realized the genetic origin of eye differences among the drosophilae. The flies normally had red eyes, but he noticed a few of the flies had white eyes. He asked how the traits were inherited in this way. Morgan and his students conducted experiments in his fly lab at Columbia University. Because of the drosophila's short reproductive cycle, they were able to breed numerous generations of the flies and observe their genetic outcomes. After doing an analysis of the flies, they were able to confirm what is known as chromosome theory. In short, the chromosome theory holds that genes are found in certain places on chromosomes, which are molecules that pass genetic information from parent to offspring. Below is the excerpt from Morgan's book Some Possible Bearings of Genetics on Pathology. Written in 1922 when Morgan was a professor of zoology at Columbia University, this book contains a synthesis of Morgan's most important conclusions about genetics from the research done in his lab during the preceding decades."
       ],
       "paragraphs": [
         "When the drosophila was crossed to the normal version, the mutant aspect disappeared in the hybrid. If a hybrid is bred to produce all normal offspring, then half of the drosophila will carry the gene. Even though these flies were crossed, the result will only still have a normal outcome. A normal outcome is one without the mutant gene present. When the heterozygous flies breed, 25% of them will have vestigial wings. Vestigial wings are genetically altered and or modified, and it results in them being crumpled up. When the wings are in this state, they cannot obviously be used. At this point, it is unknown which recessive genes are widespread in the human genome. However, in the present day, scientists are well aware of the genes within the human genome. Individuals who have the mutant genes, appear to be part of certain communities. Individuals who have this similar gene seem to have come together. However, when some individuals are absent from these communities, the genes have the ability to not be passed on to the next generations.",
@@ -312,7 +312,7 @@
     "citation": "Blair, Fred B. The Ashes of Six Million Jews. Milwaukee: People's Book Shop, 1946",
     "type": "Poem",
     "period": "20th Century",
-    "place": ["Vassar College"],
+    "place": ["Berlin, Wisconsin"],
     "theme": ["Holocaust", "World War II"],
     "imageUrl": "https://historicpittsburgh.org/islandora/object/pitt%3A31735066228317/datastream/TN_LARGE/view",
     "readings": [
@@ -456,7 +456,7 @@
     "citation": "A. Serdyuk, 'Some First Priority Questions in connection with the Situation in the Region of the Chernobyl AEhS', April 29, 1986, History and Public Policy Program Digital Archive, Archive of the Ukrainian National Chornobyl Museum. Contributed by Anna Korolevska and Adam Higginbotham. Translated by Gary Goldberg. https://digitalarchive.wilsoncenter.org/document/208456",
     "type": "Report",
     "period": "20th Century",
-    "place": ["Chernobyl"],
+    "place": ["Chernobyl, Ukrainian S.S.R."],
     "theme": ["Environmental History", "Energy History", "Cold War"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/IAEA_02790015_%285613115146%29.jpg/614px-IAEA_02790015_%285613115146%29.jpg",
     "readings": [
