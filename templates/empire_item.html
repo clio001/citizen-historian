@@ -105,7 +105,8 @@
                         </div>
                         <div class="modal-body text-center mb-5 mt-5">
                             <p class="text-67">The transcription of the source document is encoded in TEI/XML.</p>
-                            <div type="button" class="btn btn-lg btn-secondary">Download File</div>
+                            <div type="button" class="btn btn-lg btn-secondary"
+                                onclick="window.open('{{doc.teiHeader.notesStmt.noteXML}}')">Download File</div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
