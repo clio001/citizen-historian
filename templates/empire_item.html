@@ -26,7 +26,8 @@
                 <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#furtherReading">
                     Further Reading
                 </button>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#teiXML">
+                <button type="button" class="btn btn-secondary"
+                    onclick="window.open('{{doc.teiHeader.notesStmt.noteXML}}')">
                     TEI/XML
                 </button>
             </div>
@@ -96,7 +97,7 @@
                 </div>
             </div>
             <!-- Modal TEI/XML -->
-            <div class="modal fade" id="teiXML" tabindex="-1" aria-labelledby="Editorial Note" aria-hidden="true">
+            <!--             <div class="modal fade" id="teiXML" tabindex="-1" aria-labelledby="Editorial Note" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -114,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <dl class="row dl rounded mt-4 p-3">
                 <dt class="col-sm-3">Series Title:</dt>
                 <dd class="col-sm-9">{{doc.teiHeader.sourceDesc.biblFull.titleSeries}} (Volume
