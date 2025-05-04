@@ -24,6 +24,9 @@ def index():
         
     return render_template('index.html', docs=docs, articles=articles, blogs=blogs, backyard=backyard)
 
+@app.route('/about/')
+def about():
+    return render_template('about.html')
 
 @app.route('/item/')
 def item():
